@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Righteous', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #759FEC;
+}
+
+nav {
+    background-color: #1CD3C0;
+}
+
+a {
+    color: #ABFA9F;
+}
+
+header {
+    background-image: url(pics/background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+#middletext {
+    text-align: center;
+    padding-top: 20%;
+    font-size: 35px;
+}
+
+.one, .two {
+    background-color: #759FEC;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pic-con {
+    border-right: white solid 2px;
+}
+
+.pic {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.picwords {
+    text-align: center;
+}
+
+.link-pic {
+    width: 350px;
+}
+
+section > h2 {
+    text-align: center;
+    margin: 2em 0;
+}
